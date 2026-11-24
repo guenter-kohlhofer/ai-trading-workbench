@@ -1,0 +1,36 @@
+# --- Secrets: API-Keys NIEMALS committen ---
+finnhub_key.txt
+*_key.txt
+*.key
+.env
+.env.*
+
+# --- Generierte Reports / Rohdaten ---
+daily_data/
+DAILY_DATA/
+*.log
+
+# --- Private Finanz-/Depotdaten: gehören NIE in ein Repo ---
+Depotumsätze/
+Kontoumsätze/
+Steuerbuchungen/
+flatex/
+trade_journal/
+NEWS/
+*.csv
+*.xlsx
+Screenshot*.png
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Backups / Archive ---
+*.zip
+*_backup*/
+
+# --- OS ---
+Thumbs.db
+.DS_Store
